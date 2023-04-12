@@ -1,0 +1,276 @@
+
+*{
+    font-family: 'Playfair Display', serif; 
+}
+
+header {
+    display: flex;
+    background-color: rgb(189, 189, 189);
+    height: 75px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.imagen{
+    width:  250px;
+    padding-top: 10px;
+}
+
+.navgeneral{
+    padding-right: 50px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-family: 'Playfair Display', serif;
+    display: inline-block;
+}
+
+nav a {
+    padding-right: 50px;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-family: 'Playfair Display', serif;
+}
+
+.nav1 :hover{
+    color: white;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Playfair Display', serif;
+}
+
+input{
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 5px;
+}
+
+svg{
+    color: black; 
+    background-color: rgb(189, 189, 189);
+    border-radius: 5px;
+} 
+
+.slider{
+    width: 1000px;
+    height:  auto;
+    margin: 50px auto 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+.slider ul{
+    display: flex;
+    padding: 0;
+    width: 300%;
+    animation: slide 15s infinite alternate ease-in-out;
+}
+
+.slider li{
+    list-style: none;
+    width: 100%;
+}
+
+.slider img{
+    width: 100%;
+}
+
+.encabezado{
+    display: inline-block;
+    position: relative;
+    font-family: 'Playfair Display', serif;
+    padding-bottom: 20px;
+    letter-spacing: 5px;  
+    justify-content: center;
+}
+
+h1::after,h1::before{
+    content:'';
+    position:absolute;
+    width: 200px;
+    height: 1px;
+    background-color: black;
+    top: 25px;
+}
+
+h1::after{
+    right: -220px;
+}
+
+h1::before{
+    left: -220px;
+}
+
+img{
+border-radius: 30px;
+}
+
+.nav2 :hover{
+    color: rgb(3, 142, 255);
+}
+
+.formulario{
+    width: 400px;
+    background-color: rgb(189, 189, 189);
+    padding: 50px;
+    margin: auto;
+    font-family: 'Playfair Display', serif;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 7px 13px 37px;
+}
+
+.formulario h3{
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.botones{
+    margin-bottom: 10px;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.boton{
+    width: 50%;
+    border-width: 4px;
+}
+
+.clasico{
+    color:black;
+    margin-top: 20px;
+}
+
+.clasico p{
+background-color: white;
+border-radius: 20px;
+text-align: center;
+}
+
+#clasico{
+    color: black;
+    align-items: center;
+    text-align: left;
+}
+
+.plata{
+    color: black;
+    margin-top: 20px;
+}
+
+.plata p{
+background-color: gray;
+border-radius: 20px;
+text-align: center;
+}
+
+#plata{
+    color: black;
+    align-items: center;
+    text-align: left;
+}
+
+.oro{
+    color: black;
+    margin-top: 20px;
+}
+
+.oro p{
+    background-color: yellow;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#oro{
+    color: black;
+    align-items: center;
+    text-align: left;
+}
+
+.active{
+    color: rgb(113, 112, 112);
+}
+
+@keyframes slide {
+    0% {margin-left: -0%;}
+    33% {margin-left: -0%;}
+    
+    36% {margin-left: -100%;}
+    69% {margin-left: -100%;}
+    
+    72% {margin-left: -200%;}
+    100%{margin-left: -200%;}
+}
+
+footer {
+    display: flex;
+    width: 100%;
+    height: 100px;  
+    justify-content: space-between;
+    background-color: rgb(189, 189, 189);
+    margin-top: 80px;
+}
+
+.divisor1{
+    width: 500px;
+    display: flex;
+    align-items:start;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.divisor1 img{
+    display: flex;
+    width: 150px;
+    height: 60px;
+}
+
+.divisor2{
+    display: flex;
+    width: 500px;
+    align-items:start;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.iconos{
+    display: inline-flex;
+    list-style: none; 
+    padding-left: 0;
+    width: 200px;
+    justify-content: space-between;
+}
+
+.divisor3{
+    display: flexbox;
+    align-items: start;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+.divisor3 a{
+    display: flex;
+    color: black;
+    font-size: 14px;
+    align-items: center;
+    justify-content: center;
+}
+
+.divisor3 a:hover{
+    color: white;
+}
+
+.divisor3 h6{
+    font-size: 12px;
+    padding-top: 10px;
+}
+
+
+
