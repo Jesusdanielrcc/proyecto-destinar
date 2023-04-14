@@ -15,3 +15,19 @@ $('ul.tabs li a').click (function(){
     });
 });
 
+function captura(){
+    var personas=document.getElementById("info1").value;
+    var fechas=document.getElementById("info2").value;
+    var destino=document.getElementById("info3").value;
+    var plan=document.getElementById("info4").value;
+    var email=document.getElementById("info5").value;
+    console.log(personas +" "+ fechas +" "+ destino +" "+ plan +" "+ email)
+}
+
+function captura2(){
+    var nombre=document.getElementById("info6").value;
+    var apellido=document.getElementById("info7").value;
+    var numero=document.getElementById("info8").value;
+    var mail=document.getElementById("info9").value;
+    console.log(nombre +" "+ apellido +" "+ numero +" "+ mail)
+}
