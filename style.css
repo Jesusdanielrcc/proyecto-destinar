@@ -1,15 +1,14 @@
-
 *{
     font-family: 'Playfair Display', serif; 
 }
 
 header {
     display: flex;
-    background-color: rgb(189, 189, 189);
+    background-color: #31b1ff;
+    background-image: linear-gradient(285deg, #31b1ff 0%, #48a6eb 22%, #94caf5 44%, #edfefe 100%);
     height: 75px;
     justify-content: space-between;
     align-items: center;
-    
 }
 
 .imagen{
@@ -17,26 +16,27 @@ header {
     padding-top: 10px;
 }
 
-.navgeneral{
-    padding-right: 50px;
-    text-decoration: none;
+
+.tabs {
+    display: inline-flex;
+    list-style: none;
     color: black;
     font-weight: 600;
-    font-family: 'Playfair Display', serif;
-    display: inline-block;
 }
 
-nav a {
+.tabs a{
+    color: black;
     padding-right: 50px;
     text-decoration: none;
-    color: black;
-    font-weight: 600;
-    font-family: 'Playfair Display', serif;
 }
 
-.nav1 :hover{
+.tabs a:hover{
     color: white;
 }
+
+.active{
+color: white;
+} 
 
 .contenedor{
     display: flex;
@@ -51,9 +51,28 @@ input{
     letter-spacing: 5px;
 }
 
+
+#tab1{
+    display: flex;
+    background-color: #ffffff;
+    background-image: linear-gradient(180deg, #ffffff 0%, #bababa 50%, #7e7e7e 100%);
+    border-radius: 40px;
+    box-shadow: 7px 13px 37px;
+    width: 800px;
+    height: 650px;
+    margin-left: 25%;
+    padding-top: 80px;
+}
+
+#tab1 p{
+display:flex;
+text-align:center;
+justify-content: center;
+}
+
 svg{
     color: black; 
-    background-color: rgb(189, 189, 189);
+    background-color: #31b1ff;
     border-radius: 5px;
 } 
 
@@ -115,9 +134,10 @@ border-radius: 30px;
     color: rgb(3, 142, 255);
 }
 
-.formulario{
+.formulario1{
     width: 400px;
-    background-color: rgb(189, 189, 189);
+    background-color: #ffffff;
+    background-image: linear-gradient(180deg, #ffffff 0%, #bababa 50%, #7e7e7e 100%);
     padding: 50px;
     margin: auto;
     font-family: 'Playfair Display', serif;
@@ -126,7 +146,24 @@ border-radius: 30px;
     box-shadow: 7px 13px 37px;
 }
 
-.formulario h3{
+.formulario1 h3{
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.formulario2{
+    width: 400px;
+    background-color: #ffffff;
+    background-image: linear-gradient(180deg, #ffffff 0%, #bababa 50%, #7e7e7e 100%);
+    padding: 50px;
+    margin: auto;
+    font-family: 'Playfair Display', serif;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 7px 13px 37px;
+}
+
+.formulario2 h3{
     margin-bottom: 40px;
     text-align: center;
 }
@@ -195,7 +232,7 @@ text-align: center;
 }
 
 .active{
-    color: rgb(113, 112, 112);
+    color: white;
 }
 
 @keyframes slide {
@@ -214,7 +251,8 @@ footer {
     width: 100%;
     height: 100px;  
     justify-content: space-between;
-    background-color: rgb(189, 189, 189);
+    background-color: #31b1ff;
+    background-image: linear-gradient(285deg, #31b1ff 0%, #48a6eb 22%, #94caf5 44%, #edfefe 100%);
     margin-top: 80px;
 }
 
@@ -271,6 +309,5 @@ footer {
     font-size: 12px;
     padding-top: 10px;
 }
-
 
 
